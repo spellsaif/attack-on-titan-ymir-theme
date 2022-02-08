@@ -1,0 +1,37 @@
+{
+    "name": "aot---attack-on-titan-ymir",
+    "displayName": "Attack On Titan Ymir",
+    "description": "Attack On Titan Ymir VSCode theme for all AOT fan around the world. It is a attempt to make AOT based theme better. ",
+    "version": "1.0.1",
+    "publisher":"spellsaif",
+    "icon": "images/logo.png",
+    "repository": {
+        "type":"git",
+        "url":"https://github.com/spellsaif/attack-on-titan-ymir-theme"
+    },
+    "keywords": [
+        "theme",
+        "anime themes",
+        "dark anime themes",
+        "attack on titan",
+        "anime",
+        "attack on titan ymir theme",
+        "attack on titan theme",
+        "AOT"
+    ],
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Attack On Titan Ymir",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Attack On Titan Ymir-color-theme.json"
+            }
+        ]
+    }
+}
